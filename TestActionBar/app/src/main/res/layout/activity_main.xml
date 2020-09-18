@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@android:color/darker_gray"
+        android:padding="5dp"
+        android:onClick="buttonInformationPage"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/activity_mainTab"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:tabMode="fixed"
+        app:tabGravity="center"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_pager">
+
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+</LinearLayout>

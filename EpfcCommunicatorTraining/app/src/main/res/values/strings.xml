@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EpfcCommunicatorTraining</string>
+    <string name="enterMessage">Enter message</string>
+    <string name="search">search</string>
+    <string name="buttonSend">SEND</string>
+    <string name="buttonShare">SHARE</string>
+    <string name="buttonSearch">SEARCH</string>
+    <string name="buttonPicture">TAKE PICTURE</string>
+    <string name="messageReceive">This is the ReceiveMessage Activity</string>
+</resources>

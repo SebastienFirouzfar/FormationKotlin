@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ChuckFactsTraining</string>
+    <string name="GetNewFact">Get new fact</string>
+    <string name="textUrl">URL will show here</string>
+    <string name="showWereText">Chuck Norris facts will show here</string>
+</resources>

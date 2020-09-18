@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloWord</string>
+    <string name="bonjour">Bonjour</string>
+    <string name="CAVA">Comment tu vas ?</string>
+    <string name="donnerReponse">Dit moi :)</string>
+    <string name="OK">OK</string>
+</resources>

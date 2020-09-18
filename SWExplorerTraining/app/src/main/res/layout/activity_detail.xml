@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/image_planet"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginBottom="365dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alderaan" />
+
+    <TextView
+        android:id="@+id/name_planet"
+        android:layout_width="115dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="54dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/image_planet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="alderaan" />
+
+    <TextView
+        android:id="@+id/rotationPeriod"
+        android:layout_width="98dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="303dp"
+        android:layout_marginBottom="242dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_planet"
+        app:layout_constraintVertical_bias="1.0"
+        tools:text="Rotation period" />
+
+    <TextView
+        android:id="@+id/orbitalPeriod"
+        android:layout_width="86dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="317dp"
+        android:layout_marginBottom="194dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rotationPeriod"
+        app:layout_constraintVertical_bias="1.0"
+        tools:text="Orbital period" />
+
+    <TextView
+        android:id="@+id/diameterPlanet"
+        android:layout_width="58dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="145dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orbitalPeriod"
+        app:layout_constraintVertical_bias="0.966"
+        tools:text="Diameter" />
+
+    <TextView
+        android:id="@+id/climatePlanet"
+        android:layout_width="49dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="322dp"
+        android:layout_marginBottom="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diameterPlanet"
+        tools:text="Climate" />
+
+    <TextView
+        android:id="@+id/numberRotation"
+        android:layout_width="16dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="246dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/rotationPeriod"
+        app:layout_constraintTop_toBottomOf="@+id/image_planet"
+        tools:text="24" />
+
+    <TextView
+        android:id="@+id/numberOrbital"
+        android:layout_width="16dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="193dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/orbitalPeriod"
+        app:layout_constraintTop_toBottomOf="@+id/numberRotation"
+        tools:text="24" />
+
+    <TextView
+        android:id="@+id/numberDiameter"
+        android:layout_width="16dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="141dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/diameterPlanet"
+        app:layout_constraintTop_toBottomOf="@+id/numberOrbital"
+        tools:text="25" />
+
+    <TextView
+        android:id="@+id/detaillClimate"
+        android:layout_width="124dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="89dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/climatePlanet"
+        app:layout_constraintTop_toBottomOf="@+id/numberDiameter"
+        tools:text="temperate, tropical " />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

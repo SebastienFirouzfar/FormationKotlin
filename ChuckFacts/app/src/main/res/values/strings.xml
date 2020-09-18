@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ChuckFacts</string>
+    <string name="get_new_fact">Get new fact</string>
+    <string name="url_text">URL will show here</string>
+    <string name="chuck_facts">Chuck Norris facts will show here</string>
+    <string name="category">Category</string>
+    <string-array name="categories">
+        <item>movie</item>
+        <item>food</item>
+        <item>celebrity</item>
+        <item>science</item>
+        <item>sport</item>
+        <item>political</item>
+    </string-array>
+</resources>

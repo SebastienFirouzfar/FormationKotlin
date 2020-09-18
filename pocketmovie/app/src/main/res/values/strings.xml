@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PocketMovie</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pocketMovie">POCKET MOVIE</string>
+    <string name="jeanFrancois">Jean François LORAND</string>
+    <string name="sebastien">Sebastien FIROUZFAR</string>
+    <string name="nameDevelopper">Developper by :</string>
+    <string name="sendMessage">SEND FREEDBACK</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TrumpFacts</string>
+    <string name="GetNextQuote">Get next quote</string>
+    <string name="nextQuote">Next Quote</string>
+    <string name="entrerName">Enter your name</string>
+    <string name="GO">GO</string>
+    <string name="Error_message">Failed to get results, please try again</string>
+</resources>

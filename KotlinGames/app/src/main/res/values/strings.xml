@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HangmanUI</string>
+    <string name="title">GUESS THE WORD :</string>
+    <string name="temporary_masked_word">********</string>
+    <string name="enter_a_letter">Enter a letter :</string>
+    <string name="ok">OK</string>
+    <string name="retry">Retry</string>
+</resources>

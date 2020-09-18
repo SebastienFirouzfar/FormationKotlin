@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/root_layout"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/page_title"
+        android:layout_margin="64dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/maskedWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temporary_masked_word"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="32dp"
+        android:textSize="24sp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_margin="32dp"
+        >
+        <View
+            android:id="@+id/rectangle1"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_red_light"
+            android:layout_margin="8dp"/>
+        <View
+            android:id="@+id/rectangle2"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_red_light"
+            android:layout_margin="8dp"/>
+        <View
+            android:id="@+id/rectangle3"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_red_light"
+            android:layout_margin="8dp"/>
+        <View
+            android:id="@+id/rectangle4"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_red_light"
+            android:layout_margin="8dp"/>
+        <View
+            android:id="@+id/rectangle5"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_red_light"
+            android:layout_margin="8dp"/>
+        <View
+            android:id="@+id/rectangle6"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_red_light"
+            android:layout_margin="8dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="32dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_a_letter"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"/>
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="@string/ok"
+            android:onClick="onClickOkButton"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/retry"
+        android:onClick="onRetryButton"
+        />
+</LinearLayout>

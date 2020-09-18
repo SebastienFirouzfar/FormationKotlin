@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CreateMessageActivity</string>
+    <string name="enterMessage">Enter a message please</string>
+    <string name="buttonSend">SEND</string>
+    <string name="ReceiveMessageExo4">This is the ReceiveMessage Activity</string>
+    <string name="share">SHARE</string>
+    <string name="adresse">Enter an andress</string>
+    <string name="searchButton">SEARCH</string>
+    <string name="ButtonPicture">TAKE PICTURE</string>
+</resources>

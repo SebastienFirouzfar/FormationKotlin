@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SWExplorerKotlin</string>
+    <string name="grid">grid</string>
+    <string name="list">list</string>
+</resources>

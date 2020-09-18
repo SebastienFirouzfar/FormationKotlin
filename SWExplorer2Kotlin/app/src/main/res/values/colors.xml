@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="planetColor1">#ffffff</color>
+    <color name="planetColor2">#fffcca</color>
+    <color name="planetColor3">#ffab00</color>
+    <color name="planetColor4">#ff6f00</color>
+
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/planetName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="83dp"
+        android:layout_marginBottom="629dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="alderaan" />
+
+    <ImageView
+        android:id="@+id/alderaanPhoto"
+        android:layout_width="280dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="270dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/alderaan" />
+
+    <TextView
+        android:id="@+id/rotation_period"
+        android:layout_width="108dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alderaanPhoto"
+        tools:text="Rotation period : " />
+
+    <TextView
+        android:id="@+id/orbital_period"
+        android:layout_width="109dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="295dp"
+        android:layout_marginBottom="192dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rotation_period"
+        tools:text="Orbital Period :" />
+
+    <TextView
+        android:id="@+id/diameterPlanet"
+        android:layout_width="64dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="147dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orbital_period"
+        tools:text="Diameter :" />
+
+    <TextView
+        android:id="@+id/climatePeriod"
+        android:layout_width="62dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="106dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diameterPlanet"
+        tools:text="Climate : " />
+
+    <TextView
+        android:id="@+id/numberRotation"
+        android:layout_width="16dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="85dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alderaanPhoto"
+        tools:text="23" />
+
+    <TextView
+        android:id="@+id/numberOrbital"
+        android:layout_width="24dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="194dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/orbital_period"
+        app:layout_constraintTop_toBottomOf="@+id/numberRotation"
+        tools:text="549" />
+
+    <TextView
+        android:id="@+id/numberDiameter"
+        android:layout_width="44dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="144dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/diameterPlanet"
+        app:layout_constraintTop_toBottomOf="@+id/numberOrbital"
+        tools:text="7200.0" />
+
+    <TextView
+        android:id="@+id/climate_detail"
+        android:layout_width="41dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numberDiameter"
+        tools:text="fronze" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
